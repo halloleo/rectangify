@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+#
+# Activate virtual environment and run command
+#
+import sys
+import os
+from pathlib import Path
+
+# Activate environment 'standard'
+# Note: This seems to work only for Python3 version >= 3.6
+VENV_NAME = 'standard'
+VENV_BASES = ['WORKON_HOME', 'VIRTUALENV_HOME', 'VENV']
+
+for p in VENV_BASES:
+    venv_base = os.environ.get(p)
+    if venv_base:
+        break
+venv_dir = Path(venv_base, VENV_NAME).expanduser()
+
+ACTIVATE_THIS_PY = 'activate_this.py'
+activate_file = Path(venv_dir,'bin', ACTIVATE_THIS_PY)
+
+if not activate_file.is_file():
+    print("Error: Cannot find '{}' in the virtual environment '{}'. Please copy "
+          "it from a venv generated with virtualenv (instead with pyenv or similar)."
+          .format(ACTIVATE_THIS_PY, VENV_NAME))
+    sys.exit()
+
+with open(activate_file) as f:
+    exec(f.read(), dict(__file__=activate_file))
+
+# Run command
+from rectangify import main
+main()

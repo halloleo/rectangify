@@ -154,10 +154,11 @@ def rectangify(INPUT, convert=COLS_MODE, out=None, marker='---', items=None):
         raise argh.CommandError(
             "Convert mode '{0}' not available".format(convert))
 
-
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser(
         formatter_class=argh.PARSER_FORMATTER)
     argh.set_default_command(parser, rectangify)
     argh.dispatch(parser)
-
+    
+if __name__ == '__main__':
+    main()
