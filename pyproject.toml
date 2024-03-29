@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rectangify"
+version = "0.1.0"
+description = "Create tables from cell lists, i.e. making 1-dimensional lists into 2-dimensional rectangles."
+authors = ["halloleo <git@halloleo.dot.hailmail.dot.net>"]
+license = "mit"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+argh = "^0.26.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+rectangify = 'rectangify:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
