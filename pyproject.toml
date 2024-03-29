@@ -10,9 +10,10 @@ python = "^3.8"
 argh = "^0.26.2"
 
 [tool.poetry.dev-dependencies]
+pytest = "^5.2"
 
 [tool.poetry.scripts]
-rectangify = 'rectangify:main'
+rectangify = 'rectangify.rectangify:main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

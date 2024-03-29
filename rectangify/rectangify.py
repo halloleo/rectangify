@@ -109,10 +109,14 @@ def make_magic_marker():
     """generate a unique marker string (time based)"""
     return "---" + str(time.time()) + "---"
 
-def insert_markers(lines, item_num, marker):
+def insert_markers(lines, item_num, marker, count_from_end=False):
     """ Insert markers every `item_num` lines"""
-    for i in range(len(lines)-item_num, 0, -1*item_num):
-        lines.insert(i, marker)
+    if count_from_end:
+        for i in range(len(lines)-item_num, 0, -1*item_num):
+            lines.insert(i, marker)
+    else:
+        for cnt, i in enumerate(range(0, len(lines), item_num)):
+            lines.insert(i+cnt, marker)
 
 argh.PARSER_FORMATTER = argparse.RawDescriptionHelpFormatter
 #argh.PARSER_FORMATTER = argparse.RawTextHelpFormatter
@@ -133,7 +137,13 @@ argh.PARSER_FORMATTER = argparse.RawDescriptionHelpFormatter
           help="number of items until the next column/row starts " +
                "(has precedence over marker)",
           metavar='NUM')
-def rectangify(INPUT, convert=COLS_MODE, out=None, marker='---', items=None):
+@argh.arg('-e', '--count-from-end',
+          help="count the lines from the end of the file (instead of the beginning) " +
+               "when using the --items option")
+@argh.arg('-t', '--truncate-before',
+          help="ignore lines before the first marker")
+def rectangify(INPUT, convert=COLS_MODE, out=None, marker='---',
+               items=None, count_from_end=False, truncate_before=False):
     """create CSV tables from a list of columns/rows"""
     with smart_open(INPUT, 'r') as inpfile:
         lines = inpfile.read().splitlines()
@@ -141,10 +151,14 @@ def rectangify(INPUT, convert=COLS_MODE, out=None, marker='---', items=None):
     if items:
         item_num = int(items)
         marker = make_magic_marker()
-        insert_markers(lines, item_num, marker)
+        insert_markers(lines, item_num, marker, count_from_end)
 
-    if lines[0] != marker:
-        lines.insert(0, marker)
+    if truncate_before:
+        while lines[0] != marker:
+            lines.pop(0)
+    else:
+        if lines[0] != marker:
+            lines.insert(0, marker)
 
     if convert==COLS_MODE:
         from_colslist(lines, out, marker)
