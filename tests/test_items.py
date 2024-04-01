@@ -9,4 +9,4 @@ def test_flights_items(tmp_path):
 def test_flights_items_from_end(tmp_path):
     tcn.run_rect_and_assert(
         'flights_cols_unmarked.txt', tmp_path,
-        items=5, count_from_end=True)
+        items=5, reverse_count=True)

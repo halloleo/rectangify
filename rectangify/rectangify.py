@@ -109,9 +109,9 @@ def make_magic_marker():
     """generate a unique marker string (time based)"""
     return "---" + str(time.time()) + "---"
 
-def insert_markers(lines, item_num, marker, count_from_end=False):
+def insert_markers(lines, item_num, marker, reverse_count=False):
     """ Insert markers every `item_num` lines"""
-    if count_from_end:
+    if reverse_count:
         for i in range(len(lines)-item_num, 0, -1*item_num):
             lines.insert(i, marker)
     else:
@@ -137,13 +137,13 @@ argh.PARSER_FORMATTER = argparse.RawDescriptionHelpFormatter
           help="number of items until the next column/row starts " +
                "(has precedence over marker)",
           metavar='NUM')
-@argh.arg('-e', '--count-from-end',
+@argh.arg('-r', '--reverse-count',
           help="count the lines from the end of the file (instead of the beginning) " +
                "when using the --items option")
-@argh.arg('-t', '--truncate-before',
+@argh.arg('-b', '--truncate-before',
           help="ignore lines before the first marker")
 def rectangify(INPUT, convert=COLS_MODE, out=None, marker='---',
-               items=None, count_from_end=False, truncate_before=False):
+               items=None, reverse_count=False, truncate_before=False):
     """create CSV tables from a list of columns/rows"""
     with smart_open(INPUT, 'r') as inpfile:
         lines = inpfile.read().splitlines()
@@ -151,8 +151,8 @@ def rectangify(INPUT, convert=COLS_MODE, out=None, marker='---',
     if items:
         item_num = int(items)
         marker = make_magic_marker()
-        insert_markers(lines, item_num, marker, count_from_end)
-
+        insert_markers(lines, item_num, marker, reverse_count)
+    
     if truncate_before:
         while lines[0] != marker:
             lines.pop(0)

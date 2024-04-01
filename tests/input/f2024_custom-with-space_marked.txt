@@ -1,0 +1,436 @@
+MONDAY
+06 MAY 
+ARRIVAL:
+-
+-
+Please verify flight times prior to
+JETSTAR AIRWAYS
+JQ 0655
+Duration:
+1hr(s) 10min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+CBR
+CANBERRA,
+ 
+AUSTRALIA
+MEL
+MELBOURNE,
+ 
+AUSTRALIA
+Aircraft:
+AIRBUS INDUSTRIE
+A320 JET
+292
+
+
+Est. emission:
+50.20 kg CO2
+Departing At:
+12:40
+Terminal:
+Not Available
+Arriving At:
+13:50
+Terminal:
+TERMINAL 4
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 1x7kg (15lbs)
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 
+ 
+DEPARTURE: 
+MONDAY 
+06 MAY
+ARRIVAL:
+-
+-
+Please verify flight times prior to
+QANTAS AIRWAYS
+QF 0037
+Duration:
+8hr(s) 15min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+MEL
+MELBOURNE,
+
+AUSTRALIA
+SIN
+SINGAPORE,
+
+SINGAPORE
+Aircraft:
+AIRBUS INDUSTRIE
+A332 JET
+3744
+Meals:
+Hot Meal, Refreshment
+Est. emission:
+375.20 kg CO2
+Departing At:
+15:50
+Terminal:
+TERMINAL 2
+Arriving At:
+22:05
+Terminal:
+TERMINAL 1
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 1 piece
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 
+Distance (in
+Miles):
+Distance (in
+Miles):
+Distance (in
+Miles):
+ 
+DEPARTURE: 
+MONDAY 
+06 MAY
+ARRIVAL: 
+TUESDAY 
+07 MAY
+Please verify flight times prior to departure
+SWISS 
+LX 0177
+Duration:
+12hr(s) 40min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+SIN
+SINGAPORE,
+ 
+SINGAPORE
+ZRH
+ZURICH,
+ 
+SWITZERLAND
+Aircraft:
+BOEING
+777-300ER JET
+6405
+Meals:
+Meals
+Est. emission:
+688.70 kg CO2
+Departing At:
+23:35
+Terminal:
+TERMINAL 2
+Arriving At:
+06:15
+Terminal:
+Not Available
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 1x8kg (18lbs)
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 
+ 
+DEPARTURE: 
+TUESDAY 
+07 MAY 
+ARRIVAL:
+-
+-
+Please verify flight times prior to
+SWISS
+LX 1016
+Duration:
+1hr(s) 20min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+ZRH
+ZURICH,
+ 
+SWITZERLAND
+DUS
+DUSSELDORF,
+ 
+GERMANY
+Aircraft:
+
+Air
+276
+Meals:
+Food - Beverage for Purchase
+Est. emission:
+51.35 kg CO2
+Departing At:
+07:30
+Terminal:
+Not Available
+Arriving At:
+08:50
+Terminal:
+Not Available
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 1x8kg (18lbs)
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 
+ 
+DEPARTURE: 
+WEDNESDAY 
+29 MAY 
+ARRIVAL:
+-
+-
+Please verify flight times prior to
+LUFTHANSA
+LH 1369
+Duration:
+1hr(s) 40min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+KRK
+KRAKOW,
+ 
+POLAND
+FRA
+FRANKFURT,
+ 
+GERMANY
+Aircraft:
+
+Air
+498
+Meals:
+Refreshment
+Est. emission:
+66.45 kg CO2
+Departing At:
+19:15
+Terminal:
+Not Available
+Arriving At:
+20:55
+Terminal:
+TERMINAL 1
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 1x8kg (18lbs)
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 
+Distance (in
+Miles):
+Distance (in
+Miles):
+ 
+DEPARTURE: 
+WEDNESDAY 
+29 MAY
+ARRIVAL: 
+THURSDAY 
+30 MAY
+Please verify flight times prior to departure
+LUFTHANSA
+LH 0778
+Duration:
+12hr(s) 25min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+FRA
+FRANKFURT,
+ 
+GERMANY
+SIN
+SINGAPORE,
+ 
+SINGAPORE
+Aircraft:
+
+Air
+6389
+Meals:
+Refreshment, Meals
+Est. emission:
+663.51 kg CO2
+Departing At:
+21:55
+Terminal:
+TERMINAL 1
+Arriving At:
+16:20
+Terminal:
+TERMINAL 2
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 1x8kg (18lbs)
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 
+ 
+DEPARTURE: 
+THURSDAY 
+30 MAY
+ARRIVAL: 
+FRIDAY 
+31 MAY
+Please verify flight times prior to departure
+QANTAS AIRWAYS 
+QF 0036
+Duration:
+7hr(s) 20min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+SIN
+SINGAPORE,
+
+SINGAPORE
+MEL
+MELBOURNE,
+
+AUSTRALIA
+Aircraft:
+AIRBUS INDUSTRIE
+A333 JET
+3744
+Meals:
+Hot Meal, Refreshment
+Est. emission:
+423.24 kg CO2
+Departing At:
+20:15
+Terminal:
+TERMINAL 1
+Arriving At:
+05:35
+Terminal:
+TERMINAL 2
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 1 piece
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 
+Distance (in
+Miles):
+Jetabroad
+www.jetabroad.com/help
+ 
+DEPARTURE: 
+FRIDAY 
+31 MAY 
+ARRIVAL:
+-
+-
+Please verify flight times prior to
+QANTAS AIRWAYS (QANTASLINK)
+QF 1272
+Duration:
+1hr(s) 5min(s)
+Cabin:
+Economy
+Status:
+Confirmed
+MEL
+MELBOURNE,
+ 
+AUSTRALIA
+CBR
+CANBERRA,
+ 
+AUSTRALIA
+Aircraft:
+
+Air
+292
+Meals:
+Refreshment
+Est. emission:
+51.14 kg CO2
+Departing At:
+07:05
+Terminal:
+TERMINAL 1
+Arriving At:
+08:10
+Terminal:
+Not Available
+Checked Baggage: Adult, 1x23kg (50lbs) 
+Cabin Baggage: Adult, 2 pieces
+Passenger
+ 
+Name:
+Seats:
+eTicket
+ 
+Receipt(s):
+» 
+DUCK/DAGOBERT MR
+Check-In Required
+7246651485158 

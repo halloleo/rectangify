@@ -88,31 +88,37 @@ Note: If you want pretty tables for Markdown processing or just to look at, inst
 
 ## Installation
 
-For the moment `rectangify` is just a sole Python script. It runs under Python 2.7 and Python 3.5. Download the [ZIP][] and unpack it. Then install the dependency via
+Make sure you have the wonderful [`pipx`][pipx] installed. Then clone this repo and run
 
-    $ pip install -r requirements.txt 
+    pipx install <path-to-repo>
 
-Put the script `rectangify.py` somewhere in your path and make it executable. Now you should be good to go! Test it by issuing:
+Now you should be good to go! Test it by issuing:
 
-    $ rectangify.py --help
-    usage: rectangify.py [-h] [-c {COLS,ROWS}] [-o OUT] [-m STR] [-i NUM] INPUT
+```
+$ rectangify.py --help
+usage: rectangify [-h] [-c {COLS,ROWS}] [-o OUT] [-m STR] [-i NUM] [-r] [-b]
+                  INPUT
 
-    create CSV tables from a list of columns/rows
+create CSV tables from a list of columns/rows
 
-    positional arguments:
-      INPUT                 input file (or '-' for stdin)
+positional arguments:
+  INPUT                 input file (or '-' for stdin)
 
-    optional arguments:
-      -h, --help            show this help message and exit
-      -c {COLS,ROWS}, --convert {COLS,ROWS}
-                            convert mode to use: 'COLS' (cells of one column are
-                            listed together) or 'ROWS' (cells of one row are
-                            listed together). (default: 'COLS')
-      -o OUT, --out OUT     save output in file OUT instead of stdout
-      -m STR, --marker STR  marker line designating the start of a new column/row
-                            (without the newline).(default: '---')
-      -i NUM, --items NUM   number of items until the next column/row starts (has
-                            precedence over marker)
+optional arguments:
+  -h, --help            show this help message and exit
+  -c {COLS,ROWS}, --convert {COLS,ROWS}
+                        convert mode to use: 'COLS' (cells of one column are
+                        listed together) or 'ROWS' (cells of one row are
+                        listed together). (default: 'COLS')
+  -o OUT, --out OUT     save output in file OUT instead of stdout
+  -m STR, --marker STR  marker line designating the start of a new column/row
+                        (without the newline).(default: '---')
+  -i NUM, --items NUM   number of items until the next column/row starts (has
+                        precedence over marker)
+  -r, --reverse-count   count the lines from the end of the file (instead of
+                        the beginning) when using the --items option
+  -b, --truncate-before
+                        ignore lines before the first marker
+```
 
-
-[ZIP]: https://github.com/halloleo/rectangify/archive/master.zip
+  [pipx]: https://pipx.pypa.io/stable/

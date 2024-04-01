@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Module",
+            "name": "custom_marked on rectangify",
             "type": "python",
             "request": "launch",
             "module": "rectangify",
-            "args": ["-t", "tests/input/flights_cols_preambled.txt"],
+            "args": ["-m", "DEPARTURE:", "samples/f2024_custom_marked.txt"],
             "justMyCode": true
         }
     ]
